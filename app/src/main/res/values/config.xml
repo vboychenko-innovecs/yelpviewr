@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yelp_server_host">http://api.yelp.com/v2</string>
+    <string name="yelp_consumer_key">yJEyfAMudBbT5vdGL-TsRw</string>
+    <string name="yelp_consumer_secret">ENseGiwG-VyesbxIAeTPgTCfPi4</string>
+    <string name="yelp_token">R8TgsNS56ZQOgPuc8fNq6ew1u0UOqsPy</string>
+    <string name="yelp_token_secret">eA2IH5UVjDkeB8kP-nR8SlQNOhI</string>
+
+    <string name="google_static_map_base_url">http://maps.googleapis.com/maps/api/staticmap?center=[place]&amp;zoom=14&amp;size=[width]x300&amp;markers=color:red|label:Y|[place]</string>
+    <string name="google_api_key">AIzaSyD1EMYn2KJT-GZnN5Rw25g7rOG_VNPasRU</string>
+</resources>

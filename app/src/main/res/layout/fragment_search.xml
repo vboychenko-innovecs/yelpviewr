@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/fragment_padding">
+
+    <EditText android:id="@+id/term"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_term"
+        android:nextFocusDown="@+id/location"
+        android:singleLine="true"
+        android:imeOptions="actionNext" />
+
+    <EditText android:id="@id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/location_hint"
+        android:nextFocusDown="@+id/search"
+        android:singleLine="true"
+        android:imeOptions="actionDone"/>
+
+    <Button android:id="@id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/search"/>
+
+
+</LinearLayout>
